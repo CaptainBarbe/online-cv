@@ -13,8 +13,8 @@ style: styles-2
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Florentin Mouilbeaux
+tagline: Étudiant en développement Web
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
