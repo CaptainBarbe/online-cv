@@ -161,7 +161,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #35776d;
+  color: #53867E;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -180,7 +180,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #35776d;
+  background: #53867E;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -242,7 +242,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #7ec6bb;
+  background: #6AC4A3;
 }
 .footer {
   padding: 30px;
@@ -254,7 +254,7 @@ p {
   font-size: 13px;
 }
 .footer .fa-heart {
-  color: #fb866a;
+  color: #6AC4A3;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
