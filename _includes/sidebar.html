@@ -4,8 +4,8 @@
      <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}portraitsamll.jpg{% endif %}" alt="profile picture" />
-                <!--<h1 class="name">{% if site.name %}{{site.name}}{% else %}Florentin Mouilbeaux{% endif %}</h1>-->
-                 <h1 class="name">{% if site.name %}{{site.name}}{% else %}Salut ! Je suis <strong><span class="bg-color">Florentin</span></strong> <br>Etudiant en <span class="bg-color">Webdesign & Développement Web</span>{% endif %}</h1>
+                <h1 class="name">{% if site.name %}{{site.name}}{% else %}Florentin Mouilbeaux{% endif %}</h1>
+                 
                 <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Étudiant en développement Web{% endif %}</h3>
             </div><!--//profile-container-->
             
@@ -45,7 +45,13 @@
                     {% if site.twitter %}
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
                     {% else %}
-                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
+                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@captainbarbe</a></li>
+                    {% endif %}
+                    
+                    {% if site.instagram %}
+                    <li class="instagram"><i class="fa fa-instagram"></i><a href="https://instagram.com/{{site.instagram}}" target="_blank">{{site.instagram}}</a></li>
+                    {% else %}
+                     <li class="instagram"><i class="fa fa-instagram"></i><a href="https://instagram.com/captainbarbe" target="_blank">Captain Barbe</a></li>
                     {% endif %}
                     
                 </ul>
